@@ -1,0 +1,43 @@
+HTML provides several ways to create grid layouts. One of the most popular methods is to use CSS Grid Layout. Here is an example of how to create a simple grid layout using HTML and CSS:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Layout Example</title>
+	<style>
+		.grid-container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 10px;
+			background-color: #2196F3;
+			padding: 10px;
+		}
+
+		.grid-item {
+			background-color: rgba(255, 255, 255, 0.8);
+			border: 1px solid black;
+			text-align: center;
+			font-size: 30px;
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Grid Layout Example</h1>
+
+	<div class="grid-container">
+		<div class="grid-item">1</div>
+		<div class="grid-item">2</div>
+		<div class="grid-item">3</div>
+		<div class="grid-item">4</div>
+		<div class="grid-item">5</div>
+		<div class="grid-item">6</div>
+		<div class="grid-item">7</div>
+		<div class="grid-item">8</div>
+		<div class="grid-item">9</div>
+	</div>
+
+</body>
+</html>
