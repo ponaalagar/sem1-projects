@@ -1,0 +1,28 @@
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:500px;
+    padding:4px;
+    background-color:red;
+    gap:4px;
+    text-align:center
+}
+.item{
+    background-color:blue;
+}
+.it{
+    grid-row:1;
+    grid-column:1;
+}
+.it2{
+    grid-row:2;
+    grid-coloumn:1;
+}
+.it3{
+    grid-row:2;
+    grid-coloumn:2;
+}
+.it4{
+    grid-row:1;
+    grid-column:2;
+}
